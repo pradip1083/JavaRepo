@@ -1,0 +1,28 @@
+2019-09-10 12:57:45.632  INFO 3248 --- [restartedMain] c.example.notes.Notes.NotesApplication   : Starting NotesApplication on DIN51003631 with PID 3248 (started by prnikam in C:\Pradip nikam\D-Drive\Java_Workspace\Notes)
+2019-09-10 12:57:45.632  INFO 3248 --- [restartedMain] c.example.notes.Notes.NotesApplication   : No active profile set, falling back to default profiles: default
+2019-09-10 12:57:45.817  INFO 3248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-10 12:57:45.827  INFO 3248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-09-10 12:57:45.861  INFO 3248 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e02c3b86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 12:57:46.067  INFO 3248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6068 (http)
+2019-09-10 12:57:46.068  INFO 3248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-10 12:57:46.068  INFO 3248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-10 12:57:46.164  INFO 3248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-10 12:57:46.164  INFO 3248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 530 ms
+2019-09-10 12:57:46.199  INFO 3248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-09-10 12:57:46.203  INFO 3248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-09-10 12:57:46.210  INFO 3248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-10 12:57:46.230  INFO 3248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-09-10 12:57:46.268  INFO 3248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-10 12:57:46.279  INFO 3248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-09-10 12:57:46.355  INFO 3248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 12:57:46.359  WARN 3248 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-10 12:57:46.380  WARN 3248 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-09-10 12:57:46.428  INFO 3248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6068 (http) with context path ''
+2019-09-10 12:57:46.429  INFO 3248 --- [restartedMain] c.example.notes.Notes.NotesApplication   : Started NotesApplication in 0.819 seconds (JVM running for 707.386)
+2019-09-10 12:57:46.431  INFO 3248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-09-10 12:59:49.226  INFO 3248 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-10 12:59:49.234  INFO 3248 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-10 12:59:49.238  INFO 3248 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-09-10 12:59:49.253  INFO 3248 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
