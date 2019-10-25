@@ -6,13 +6,21 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
        "> 
+       
+       <!-- beans defenation -->
+             
+      	<bean id="pstnHealthCheckProcessor" class="com.camel.apacheCamel.processors.PSTNHealthCheckProcessor"/>
+    	<bean id="broadbandProcessor" class="com.camel.apacheCamel.processors.BroadbandProcessorImpl"/>
+		
+    	<!-- Camel Context Started  -->
     <camelContext xmlns="http://camel.apache.org/schema/spring">
         <route id="BROADBAND">
+            
             <from uri="direct:broadband" />
             <to uri="broadbandProcessor"/>
           	<to uri="pstnHealthCheckProcessor"/>
+          	
         </route>
     </camelContext>
- 	   	<bean id="pstnHealthCheckProcessor" class="com.camel.apacheCamel.processors.PSTNHealthCheckProcessor"/>
-    	<bean id="broadbandProcessor" class="com.camel.apacheCamel.processors.BroadbandProcessorImpl"/>
+ 	   	
 </beans>
