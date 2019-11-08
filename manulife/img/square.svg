@@ -1,0 +1,14 @@
+<svg width="64" height="78" xmlns="http://www.w3.org/2000/svg">
+ <title>Square</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="64" width="78" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" transform="rotate(51.107635498046875 254.30035400390645,293.88433837890614) " id="svg_1">
+   <rect fill="#ffffff" stroke="null" id="svg_2" height="352.193889" width="350.467362" y="117.78738" x="79.066668"/>
+  </g>
+ </g>
+</svg>
