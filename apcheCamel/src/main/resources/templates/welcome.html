@@ -1,21 +1,72 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
-<link rel="stylesheet" href="static/css/welcome.css" >
+<link rel="stylesheet" href="/css/welcome.css" >
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <title>Welcome to thymeleaf demo</title>
 </head>
 <body>
-<h2>Welcome to the Aapache camel Demo..</h2>
-<ul class="ul-list">
-	<li th:each="name : ${map_data}" th:text="${name}"></li>
-</ul>
-<div class="container">
-
-	<div class="row">
-
+<header>
+	<nav class="header-nav">
+		<div class="header-nav-div">
+			<span class="header-nav-div-span">Welcome to the Aapache camel Demo</span>
+		</div>
+	</nav>
+</header>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<ul class="ul-list">
+					<li th:each="name : ${map_data}" th:text="${name}"></li>
+				</ul>
+				<ul class="ul-list">
+					<li th:each="name : ${map_data}" th:text="${name}"></li>
+				</ul>
+				<ul class="ul-list">
+					<li th:each="name : ${map_data}" th:text="${name}"></li>
+				</ul>
+				<ul class="ul-list">
+					<li th:each="name : ${map_data}" th:text="${name}"></li>
+				</ul>
+				<ul class="ul-list">
+					<li th:each="name : ${map_data}" th:text="${name}"></li>
+				</ul>
+				
+			</div>
+		</div>	
 	</div>
+
+</section>
+
+<footer>
+<div class="row">
+	<div class="col-md-4">
+		<div class="footer-col-div">
+						<a href="#">About us</a>
+						<a href="#">Contact us</a>
+						<a href="#">Help</a>			
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="footer-col-div">
+						<a href="#">About us</a>
+						<a href="#">Contact us</a>
+						<a href="#">Help</a>		
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="footer-col-div">
+						<a href="#">About us</a>
+						<a href="#">Contact us</a>
+						<a href="#">Help</a>	
+		</div>
+	</div>
+
+
 </div>
+</footer>
 </body>
 </html>

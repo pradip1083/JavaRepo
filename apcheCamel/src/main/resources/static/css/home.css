@@ -1,0 +1,45 @@
+header{
+	top: 34px;
+    background-color: coral;
+    height: 69px;
+}
+
+.header-left-nav{
+	display: block;
+    position: relative;
+    padding-top: 19px;
+    padding-left: 51px;
+}
+.left-nav-span{
+	
+	padding-right: 29px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    
+}
+a:hover{
+	text-decoration: none;
+	
+}
+
+.header-right-nav-div-a{
+	display: inline-block;
+    position: static;
+    float: right;
+    padding: 3px;
+    padding-top: 0px;
+    margin-top: -25px;
+    margin-right: 40px;
+    background-color: bisque;
+    font-weight: 700;
+}
+.header-nav-div{
+	flex-flow: column;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 88px;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 15px;
+}
