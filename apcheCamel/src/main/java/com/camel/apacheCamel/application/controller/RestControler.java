@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @Controller  // @Controller is used to create the Map of Model object and find the View
 				
@@ -54,5 +55,16 @@ public class RestControler {
 	public String homePage() {
 		return "home";
 		
+	}
+	
+	@GetMapping("/getJSONdata")
+	public Map<String,Object> getJSONData() {
+		
+		Map<String,Object>map=new HashMap<>();
+		map.put("error", "No");
+		map.put("errorCode", "200");
+		map.put("message", "Everything is Fine..!!");
+		
+		return map;
 	}
 }
