@@ -18,6 +18,10 @@ header{
     font-weight: 700;
     
 }
+.row-1{
+	display: flex;
+    margin-top: 19px;
+}
 a:hover{
 	text-decoration: none;
 	

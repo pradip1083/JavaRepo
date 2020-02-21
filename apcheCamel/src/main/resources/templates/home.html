@@ -11,7 +11,7 @@
 <header>
 	<nav class="header-left-nav">
 		<div class="header-left-nav-div">
-			<a href="javascript:hello()"><span class="left-nav-span">Home</span></a>
+			<a href="#" onclick="hello();" onmouseover="javascript:hello();"><span class="left-nav-span">Home</span></a>
 			<a href="#"><span class="left-nav-span">About Us</span></a>
 			<a href="#"><span class="left-nav-span">Help</span></a>
 			<a href="#"><span class="left-nav-span">Contact Us</span></a>
@@ -25,15 +25,19 @@
 </header>
 <section>
 	<div class="container">
-		<div class="row">
+		<div class="row row-1">
 		<div class="col-md-4">
 			<a href="/camel"><span>Click here for camel demo</span></a>
+		</div>
+		<div class="col-md-4">
+			<button onclick="count();" class="btn btn-success">Count me</button>
+			<span class="count_data" id="countMe"></span>
 		</div>
 		</div>
 		
 		<div class="row">
 			<div class="col-md-6">
-			 <img src="../static/img/photo.jpg" width="100" th:src="@{img/photo.jpg}"/>
+			 <!-- <img src="../static/img/photo.jpg" width="100" th:src="@{img/photo.jpg}"/> -->
 			</div>
 		</div>	
 	</div>

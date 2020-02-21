@@ -15,6 +15,7 @@ public class PSTNHealthCheckProcessor implements Processor {
 		
 		Map<String,String>headers= exchange.getIn().getHeader("header",Map.class);
 		List<String>list=new ArrayList();
+	
 		
 		System.out.println("Inside PSTNHealthCheckProcessor "+headers.get("pstn"));
 		Map<String,String>mapContent=(Map)exchange.getProperty("map");
