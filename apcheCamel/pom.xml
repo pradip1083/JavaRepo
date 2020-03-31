@@ -49,21 +49,21 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
-			<version>2.15.1</version>
+			<version>2.24.0</version>
 		</dependency>
 		
 		<!-- Apache camel-Spring dependencies -->
 		<dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-spring</artifactId>
-            <version>2.15.1</version>
+            <version>2.24.0</version>
         </dependency>
         
         <!-- apache camel-jms dependencies  -->
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-jms</artifactId>
-            <version>2.15.1</version>
+            <version>2.24.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
