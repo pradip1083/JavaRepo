@@ -1,0 +1,35 @@
+header{
+	top: 34px;
+    background-color: coral;
+    height: 69px;
+}
+
+.header-nav-div{
+	flex-flow: column;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 88px;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 15px;
+}
+
+.ul-list{
+	color: green;
+	
+}
+footer{
+	background-color: silver;
+    height: 165px;
+    margin-top: 0px;
+}
+ .footer-col-div a{
+	color: #FFFFFF;
+    display: block;
+    position: relative;
+    padding-top: 12px;
+    margin-top: 10px;
+    margin-left: 83px;
+    padding-right: 200px;
+    padding-left: 25px
+    }

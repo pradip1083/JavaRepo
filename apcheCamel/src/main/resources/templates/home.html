@@ -1,0 +1,49 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<script src="js/count.js"></script>
+<link rel="stylesheet" href="/css/home.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>Home</title>
+</head>
+<body>
+<header>
+	<nav class="header-left-nav">
+		<div class="header-left-nav-div">
+			<a href="#" onclick="hello();" onmouseover="javascript:hello();"><span class="left-nav-span">Home</span></a>
+			<a href="#"><span class="left-nav-span">About Us</span></a>
+			<a href="#"><span class="left-nav-span">Help</span></a>
+			<a href="#"><span class="left-nav-span">Contact Us</span></a>
+		</div>
+	</nav>
+	 <nav class="header-right-nav">
+		<div class="header-right-nav-div">
+			<a class="header-right-nav-div-a" href="#"><span class="header-nav-div-span">Sign in</span></a>
+		</div>
+	</nav>
+</header>
+<section>
+	<div class="container">
+		<div class="row row-1">
+		<div class="col-md-4">
+			<a href="/camel"><span>Click here for camel demo</span></a>
+		</div>
+		<div class="col-md-4">
+			<button onclick="count();" class="btn btn-success">Count me</button>
+			<span class="count_data" id="countMe"></span>
+		</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+			 <!-- <img src="../static/img/photo.jpg" width="100" th:src="@{img/photo.jpg}"/> -->
+			</div>
+		</div>	
+	</div>
+
+</section>
+
+<footer></footer>
+</body>
+</html>
